@@ -10,6 +10,7 @@ use CodeIgniter\Router\RouteCollection;
 
 
 $routes->get('/', 'Home::index');
+$routes->get('/login', 'Home::login');
 
 $routes->get('/teste', 'Home::teste');
 //-> view teste
