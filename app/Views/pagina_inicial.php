@@ -147,7 +147,6 @@
             background-color: #bbdffb;
             border-radius: 10px;
 
-
             width: 400px;
             height: 32px;
             bottom: 900px;
@@ -200,6 +199,23 @@
             cursor: pointer;
         }
 
+        /* Estilo do botão de produtos */
+        #btnProdutos {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #1a8ae5;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+
+
+        
+
         @media only screen and (min-width: 768px) {
             .container {
                 justify-content: space-between;
@@ -239,7 +255,14 @@
             </button>
         </div>
 
-        <button id="btnRelatorio">Relatório</button>
+        <div id="bntRelatorio">
+            <button id="btnRelatorio">Relatório</button>
+        </div>
+
+        <div id="bntProdutos">
+            <button id="btnProdutos">Produtos</button>
+        </div>
+
 
 
         <div class="table-container">

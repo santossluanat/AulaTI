@@ -14,5 +14,15 @@ class Home extends BaseController
         return view('login');
     }
 
+    public function quemsomos(): string
+    {
+        return view('quemsomos');
+    }
+
+    public function apresentacao(): string
+    {
+        return view('apresentacao');
+    }
+
 
 }
